@@ -15,7 +15,7 @@ See the [Wiki](https://github.com/camilastock/opendxl-nmap-service-python/wiki) 
 
 To start using the DXL Nmap Python Service:
 
-* Download the [Latest Release](https://github.com/camilastock/opendxl-nmap-service-python/tree/0.0.1)
+* Download the [Latest Release](https://github.com/camilastock/opendxl-nmap-service-python/releases)
 * Extract the release .zip file
 * View the `README.html` file located at the root of the extracted files.
   * The `README` links to the documentation which includes installation instructions, tool details, and samples.
