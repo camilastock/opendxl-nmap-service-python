@@ -9,28 +9,28 @@ via  [Data Exchange Layer](http://www.mcafee.com/us/solutions/data-exchange-laye
 
 ## Documentation
 
-See the [Wiki](https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/wiki) for installation instructions, tool documentation, and examples.
+See the [Wiki](https://github.com/camilastock/opendxl-nmap-service-python/wiki) for installation instructions, tool documentation, and examples.
 
 ## Installation
 
 To start using the DXL Nmap Python Service:
 
-* Download the [Latest Release](https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/releases)
+* Download the [Latest Release](https://github.com/camilastock/opendxl-nmap-service-python/tree/0.0.1)
 * Extract the release .zip file
 * View the `README.html` file located at the root of the extracted files.
   * The `README` links to the documentation which includes installation instructions, tool details, and samples.
-  * The SDK documentation is also available on-line [here](https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/pydoc).
+  * The SDK documentation is also available on-line [here](https://github.com/camilastock/opendxl-nmap-service-python/pydoc).
 
 ## Docker Support
 
 A pre-built Docker image can be used as an alternative to installing a Python environment with the
 modules required for the Nmap DXL service.
 
-See the [Docker Support Documentation](https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/pydoc/docker.html) for details.
+See the [Docker Support Documentation](https://github.com/camilastock/opendxl-nmap-service-python/pydoc/docker.html) for details.
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the [GitHub Issues](https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/issues).
+For bugs, questions and discussions please use the [GitHub Issues](https://github.com/camilastock/opendxl-nmap-service-python/issues).
 
 ## LICENSE
 

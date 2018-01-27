@@ -12,16 +12,16 @@ The purpose of this service is to allow users to invoke Nmap tool commands (choo
 Documentation
 -------------
 
-See the `GitHub Wiki <https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/wiki>`_ for an overview of the McAfee
+See the `GitHub Wiki <https://github.com/camilastock/opendxl-nmap-service-python/wiki>`_ for an overview of the McAfee
 Nmap DXL Python Service and usage examples.
 
-See the `Nmap DXL Python service documentation <https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/pydoc>`_ for
+See the `Nmap DXL Python service documentation <https://github.com/camilastock/opendxl-nmap-service-python/pydoc>`_ for
 installation instructions, API documentation, and usage examples.
 
 Bugs and Feedback
 -----------------
 
-For bugs, questions and discussions please use the `GitHub Issues <https://github-lvs.corpzone.internalzone.com/detect/opendxl-nmap-service-python/issues>`_.
+For bugs, questions and discussions please use the `GitHub Issues <https://github.com/camilastock/opendxl-nmap-service-python/issues>`_.
 
 LICENSE
 -------
