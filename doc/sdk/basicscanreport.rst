@@ -9,7 +9,7 @@ For more information see:
 Prerequisites
 *************
 * The samples configuration step has been completed (see :doc:`sampleconfig`)
-* The DXL Nmap Service Python is running (see :doc:`running`)
+* The OpenDXL Nmap Service Python is running (see :doc:`running`)
 
 Setup
 *****
@@ -85,7 +85,7 @@ The majority of the sample code is shown below:
             print "Error invoking service with topic '{0}': {1} ({2})".format(
                 request_topic, res.error_message, res.error_code)
 
-Once a connection is established to the DXL fabric, a request message is created with a topic that targets the remote commands of the DXL Nmap Service.
+Once a connection is established to the DXL fabric, a request message is created with a topic that targets the remote commands of the OpenDXL Nmap Service.
 
 The final step is to display the contents of the returned dictionary (``dict``) which contains the results of the
 aggressive scan report.

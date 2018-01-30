@@ -1,7 +1,7 @@
 Configuration
 =============
 
-The DXL Nmap Service application requires a set of configuration files to operate.
+The OpenDXL Nmap Service application requires a set of configuration files to operate.
 
 This distribution contains a ``config`` sub-directory that includes the configuration files that must
 be populated prior to running the application.
@@ -39,12 +39,12 @@ DXL Client Configuration File (dxlclient.config)
             PrivateKey=c:\\certificates\\client.key
 
             [Brokers]
-            {5d73b77f-8c4b-4ae0-b437-febd12facfd4}={5d73b77f-8c4b-4ae0-b437-febd12facfd4};8883;mybroker.mcafee.com;192.168.1.12
-            {24397e4d-645f-4f2f-974f-f98c55bdddf7}={24397e4d-645f-4f2f-974f-f98c55bdddf7};8883;mybroker2.mcafee.com;192.168.1.13
+            {5d73b77f-8c4b-4ae0-b437-febd12facfd4}={5d73b77f-8c4b-4ae0-b437-febd12facfd4};8883;mybroker;192.168.1.12
+            {24397e4d-645f-4f2f-974f-f98c55bdddf7}={24397e4d-645f-4f2f-974f-f98c55bdddf7};8883;mybroker2;192.168.1.13
 
 .. _dxl_service_config_file_label:
 
-DXL Nmap Service (dxlnmapservice.config)
+OpenDXL Nmap Service (dxlnmapservice.config)
 ----------------------------------------
 
     The required ``dxlnmapservice.config`` file is used to configure the application.

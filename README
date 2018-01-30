@@ -1,10 +1,10 @@
-McAfee DXL Nmap Service
+OpenDXL Nmap Service
 =======================
 
 Overview
 --------
 
-The `McAfee Nmap DXL Python Service exposes access to the [Nmap tool](https://nmap.org)
+The `OpenDXL Nmap Python Service exposes access to the [Nmap tool](https://nmap.org)
 via  [Data Exchange Layer](http://www.mcafee.com/us/solutions/data-exchange-layer.aspx) (DXL) fabric.
 
 The purpose of this service is to allow users to invoke Nmap tool commands (choosing the corresponding nmap's arguments) via the DXL fabric.
@@ -12,10 +12,9 @@ The purpose of this service is to allow users to invoke Nmap tool commands (choo
 Documentation
 -------------
 
-See the `GitHub Wiki <https://github.com/camilastock/opendxl-nmap-service-python/wiki>`_ for an overview of the McAfee
-Nmap DXL Python Service and usage examples.
+See the `GitHub Wiki <https://github.com/camilastock/opendxl-nmap-service-python/wiki>`_ for an overview of the OpenDXL Nmap Python Service and usage examples.
 
-See the `Nmap DXL Python service documentation <https://github.com/camilastock/opendxl-nmap-service-python/pydoc>`_ for
+See the `OpenDXL Nmap Python service documentation <https://github.com/camilastock/opendxl-nmap-service-python/pydoc>`_ for
 installation instructions, API documentation, and usage examples.
 
 Bugs and Feedback

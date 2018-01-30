@@ -1,4 +1,4 @@
-DXL Nmap Service
+OpenDXL Nmap Service
 ================
 
 Introduction

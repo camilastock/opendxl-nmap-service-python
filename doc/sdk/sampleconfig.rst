@@ -1,7 +1,7 @@
 Samples Configuration
 =====================
 
-The DXL Nmap Service distribution contains a configuration file (``dxlclient.config``) located
+The OpenDXL Nmap Service distribution contains a configuration file (``dxlclient.config``) located
 in the ``sample`` sub-directory that must be populated in order for the samples to connect to the DXL fabric.
 
 The steps to populate this configuration file are the same as those documented in the `OpenDXL Python SDK`, see the
@@ -18,5 +18,5 @@ The following is an example of a populated configuration file:
        PrivateKey=c:\\certificates\\client.key
 
        [Brokers]
-       {5d73b77f-8c4b-4ae0-b437-febd12facfd4}={5d73b77f-8c4b-4ae0-b437-febd12facfd4};8883;mybroker.mcafee.com;192.168.1.12
-       {24397e4d-645f-4f2f-974f-f98c55bdddf7}={24397e4d-645f-4f2f-974f-f98c55bdddf7};8883;mybroker2.mcafee.com;192.168.1.13
+       {5d73b77f-8c4b-4ae0-b437-febd12facfd4}={5d73b77f-8c4b-4ae0-b437-febd12facfd4};8883;mybroker;192.168.1.12
+       {24397e4d-645f-4f2f-974f-f98c55bdddf7}={24397e4d-645f-4f2f-974f-f98c55bdddf7};8883;mybroker2;192.168.1.13

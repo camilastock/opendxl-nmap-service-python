@@ -1,10 +1,10 @@
-# McAfee Nmap DXL Python Service
+# OpenDXL Nmap Python Service
 [![OpenDXL Bootstrap](https://img.shields.io/badge/Built%20With-OpenDXL%20Bootstrap-blue.svg)](https://github.com/opendxl/opendxl-bootstrap-python)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Overview
 
-The Nmap DXL Python Service exposes access to the [Nmap tool](https://nmap.org)
+The OpenDXL Nmap Python Service exposes access to the [Nmap tool](https://nmap.org)
 via  [Data Exchange Layer](http://www.mcafee.com/us/solutions/data-exchange-layer.aspx) (DXL) fabric.
 
 ## Documentation
@@ -13,7 +13,7 @@ See the [Wiki](https://github.com/camilastock/opendxl-nmap-service-python/wiki) 
 
 ## Installation
 
-To start using the DXL Nmap Python Service:
+To start using the OpenDXL Nmap Python Service:
 
 * Download the [Latest Release](https://github.com/camilastock/opendxl-nmap-service-python/releases)
 * Extract the release .zip file
@@ -24,7 +24,7 @@ To start using the DXL Nmap Python Service:
 ## Docker Support
 
 A pre-built Docker image can be used as an alternative to installing a Python environment with the
-modules required for the Nmap DXL service.
+modules required for the OpenDXL Nmap service.
 
 See the [Docker Support Documentation](https://github.com/camilastock/opendxl-nmap-service-python/pydoc/docker.html) for details.
 
