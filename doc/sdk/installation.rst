@@ -18,11 +18,11 @@ Prerequisites
 
         pip install python-libnmap
 
-   You can look for more information in `<https://pypi.python.org/pypi/python-libnmap>`
+   You can look for more information in `<https://pypi.python.org/pypi/python-libnmap>`_
 
 * Nnmap tool installed within a Windows or Linux environment
 
-  You can look for more information in `<https://nmap.org/download.html>`
+  You can look for more information in `<https://nmap.org/download.html>`_
 
   Note: The environment variable "nmap" must be populated with the fully-qualified location of the Nmap executable/binary.
   For windows operating system, this should be added into the PATH.
