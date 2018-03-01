@@ -21,13 +21,6 @@ To start using the OpenDXL Nmap Python Service:
   * The `README` links to the documentation which includes installation instructions, tool details, and samples.
   * The SDK documentation is also available on-line [here](https://github.com/camilastock/opendxl-nmap-service-python/pydoc).
 
-## Docker Support
-
-A pre-built Docker image can be used as an alternative to installing a Python environment with the
-modules required for the OpenDXL Nmap service.
-
-See the [Docker Support Documentation](https://github.com/camilastock/opendxl-nmap-service-python/pydoc/docker.html) for details.
-
 ## Bugs and Feedback
 
 For bugs, questions and discussions please use the [GitHub Issues](https://github.com/camilastock/opendxl-nmap-service-python/issues).
