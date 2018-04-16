@@ -1,0 +1,186 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>dxlnmapservice.app module &#8212; OpenDXL Nmap Service 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="dxlnmapservice.requesthandlers module" href="dxlnmapservice.requesthandlers.html" />
+    <link rel="prev" title="dxlnmapservice package" href="dxlnmapservice.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dxlnmapservice.requesthandlers.html" title="dxlnmapservice.requesthandlers module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="dxlnmapservice.html" title="dxlnmapservice package"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">OpenDXL Nmap Service 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="dxlnmapservice.html" accesskey="U">dxlnmapservice package</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-dxlnmapservice.app">
+<span id="dxlnmapservice-app-module"></span><h1>dxlnmapservice.app module<a class="headerlink" href="#module-dxlnmapservice.app" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="dxlnmapservice.app.NmapService">
+<em class="property">class </em><code class="descclassname">dxlnmapservice.app.</code><code class="descname">NmapService</code><span class="sig-paren">(</span><em>config_dir</em><span class="sig-paren">)</span><a class="headerlink" href="#dxlnmapservice.app.NmapService" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">dxlbootstrap.app.Application</span></code></p>
+<p>The “DXL Nmap Service” application class.</p>
+<p>Constructor parameters:</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config_dir</strong> – The location of the configuration files for the
+application</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="dxlnmapservice.app.NmapService.SERVICE_TYPE">
+<code class="descname">SERVICE_TYPE</code><em class="property"> = '/opendxl-nmap/service'</em><a class="headerlink" href="#dxlnmapservice.app.NmapService.SERVICE_TYPE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="dxlnmapservice.app.NmapService.client">
+<code class="descname">client</code><a class="headerlink" href="#dxlnmapservice.app.NmapService.client" title="Permalink to this definition">¶</a></dt>
+<dd><p>The DXL client used by the application to communicate with the DXL
+fabric</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="dxlnmapservice.app.NmapService.config">
+<code class="descname">config</code><a class="headerlink" href="#dxlnmapservice.app.NmapService.config" title="Permalink to this definition">¶</a></dt>
+<dd><p>The application configuration (as read from the “dxlnmapservice.config” file)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dxlnmapservice.app.NmapService.on_dxl_connect">
+<code class="descname">on_dxl_connect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dxlnmapservice.app.NmapService.on_dxl_connect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Invoked after the client associated with the application has connected
+to the DXL fabric.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dxlnmapservice.app.NmapService.on_load_configuration">
+<code class="descname">on_load_configuration</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#dxlnmapservice.app.NmapService.on_load_configuration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Invoked after the application-specific configuration has been loaded</p>
+<p>This callback provides the opportunity for the application to parse
+additional configuration properties.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config</strong> – The application configuration</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="dxlnmapservice.app.NmapService.on_register_services">
+<code class="descname">on_register_services</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dxlnmapservice.app.NmapService.on_register_services" title="Permalink to this definition">¶</a></dt>
+<dd><p>Invoked when services should be registered with the application</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="dxlnmapservice.app.NmapService.on_run">
+<code class="descname">on_run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#dxlnmapservice.app.NmapService.on_run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Invoked when the application has started running.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="dxlnmapservice.html"
+                        title="previous chapter">dxlnmapservice package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="dxlnmapservice.requesthandlers.html"
+                        title="next chapter">dxlnmapservice.requesthandlers module</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/dxlnmapservice.app.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dxlnmapservice.requesthandlers.html" title="dxlnmapservice.requesthandlers module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="dxlnmapservice.html" title="dxlnmapservice package"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">OpenDXL Nmap Service 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="dxlnmapservice.html" >dxlnmapservice package</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright Copyright 2017.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.
+    </div>
+  </body>
+</html>
