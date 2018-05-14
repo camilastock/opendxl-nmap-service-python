@@ -30,7 +30,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = "OpenDXL Nmap Service"
-copyright = "Copyright 2017"
+copyright = "2017"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
