@@ -13,19 +13,14 @@ Prerequisites
 * Python 2.7.9 or higher installed within a Windows or Linux environment
    (Python 3 is not supported at this time)
 
-* Python-libnmap installed within a Windows or Linux environment
-    .. parsed-literal::
-
-        pip install python-libnmap
-
-   You can look for more information in `<https://pypi.python.org/pypi/python-libnmap>`_
-
 * Nnmap tool installed within a Windows or Linux environment
 
   You can look for more information in `<https://nmap.org/download.html>`_
 
   Note: The environment variable "nmap" must be populated with the fully-qualified location of the Nmap executable/binary.
   For windows operating system, this should be added into the PATH.
+
+  Note: The nmap Python Service would need to be able to execute the nmap tool as the root user.
 
 Installation
 ************
