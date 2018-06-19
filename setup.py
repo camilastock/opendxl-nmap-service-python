@@ -24,7 +24,7 @@ dist = setup(
     install_requires=[
         "dxlclient",
         "dxlbootstrap>=0.1.3",
-        "dxlclient"
+        "python-libnmap"
     ],
 
     # Package author details:
