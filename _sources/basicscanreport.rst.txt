@@ -35,7 +35,7 @@ You can look for more information about Nmap tool in `Nmap page <https://nmap.or
 Running
 *******
 
-To run this sample execute the ``sample/basic/basic_aggressive_scan_report.py`` script as follows:
+To run this sample execute the ``sample/basic/basic_scan_report.py`` script as follows:
 
     .. parsed-literal::
 
