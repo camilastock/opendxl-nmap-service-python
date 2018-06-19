@@ -45,7 +45,7 @@ DXL Client Configuration File (dxlclient.config)
 .. _dxl_service_config_file_label:
 
 OpenDXL Nmap Service (dxlnmapservice.config)
-----------------------------------------
+--------------------------------------------
 
     The required ``dxlnmapservice.config`` file is used to configure the application.
 
